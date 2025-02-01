@@ -34,6 +34,9 @@
   .sea-glow { --sea-oil: #ee1 }
   .sea-gush { --sea-oil: plum }
   .sea-lava { --sea-oil: tan }
+  .soft {
+    background-image: radial-gradient(#00a1f1, plum);
+  }
 }
 .sea-wet :not(.sea-dry) {
   background-color: none;
@@ -57,6 +60,7 @@
     color: var(--sea-ink);
   }
 }
+
 
 
 
